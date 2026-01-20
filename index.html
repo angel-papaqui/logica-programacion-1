@@ -3,10 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <title>Lógica de programación 1</title>
 </head>
 <body>
-    <h1>¡Bienvenido!</h1>
+    <header>
+        <h1> Bienvenido, aquí podrás ordenar tus números de mayor a menor! </h1>
+    </header>
+
+        
+    <container>
+    <main>
+        <h2> Ingresa tus tres números </h2>
+        <section class="introducir-numero-1">
+            <label for="num-1">
+                Ingresa el primer número: <input id="num-1" type="text" placeholder="12345" name="num-1" required>
+            </label>
+        </section>
+        
+
+        <section class="introducir-numero-2">
+            <label for="num-2">
+                Ingresa el segundo número: <input id="num-2" type="text" placeholder="12345" name="num-2" required>
+            </label>
+        </section>
+
+        <section class="introducir-numero-3">
+            <label for="num-3">
+                Ingresa el tercer número: <input id="num-3" type="text" placeholder="12345" name="num-3" required>
+            </label>
+        </section>
+
+        <button onclick="ordenarNumeros()" class="boton-ordenar" id="button"> Ordenar </button>
+        
+
+    </main> <img src="/src/bart.gif"/ class="bart">
+    </container>
+
+    <div id="numeros-ordenados">
+        ¡Tus números están ordenados!
+    </div>
+
 
     <script src="script.js"></script>
 </body>
