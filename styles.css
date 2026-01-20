@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-de-fondo: #735AC4;
+    --color-de-texto: #ffffff;
+    --color-de-titulos: red;
+    --borde-redondeado: 5%;
+}
+
+body{
+    background-color: var(--color-de-fondo);
+    color: var(--color-de-texto);
+    font-family: "Roboto Condensed", sans-serif;;
+}
+
+header{
+    text-align: center;
+    margin: 2rem 0rem 1rem 0rem;
+}
+
+h2{
+    width: 80%;
+    margin: 2rem;
+    max-width: 80%;
+    padding: 1rem;
+    border-radius: 15px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+container{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    background-color: #A75AC4;
+    width: 90%;
+    max-width: 350px; /* Tope de ancho máximo que debe tener */
+    margin: auto; /* auto: centra el bloque a los lados */
+    padding: 0rem;
+    border-radius: 45px;
+}
+
+section.introducir-numero-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70%;
+    padding: 1rem;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+section.introducir-numero-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70%;
+    padding: 1rem;
+    border-radius: 15px;
+    font-weight: bold;
+} 
+
+section.introducir-numero-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70%;
+    padding: 1rem;
+    border-radius: 15px;
+    font-weight: bold;
+} 
+
+.boton-ordenar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    background-color: #735AC4;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 15px;
+    font-weight: bold
+} 
+
+.boton-ordenar:hover{
+    background-color: #2C1334;
+    cursor: pointer;
+}
+
+.bart{
+    display: flex;
+    margin: 2rem auto;
+    border-radius: 300px;
+    width: 40%;
+}
+
+#numeros-ordenados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A75AC4;
+    width: 90%;
+    max-width: 80%px; /* Tope de ancho máximo que debe tener */
+    margin: 3rem auto; /* auto: centra el bloque a los lados */
+    padding: 0rem;
+    border-radius: 45px;
+    font-size: 2rem;
+}
