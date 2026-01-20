@@ -106,7 +106,7 @@ section.introducir-numero-3{
     width: 40%;
 }
 
-#numeros-ordenados{
+.numeros-ordenados{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,5 +116,5 @@ section.introducir-numero-3{
     margin: 3rem auto; /* auto: centra el bloque a los lados */
     padding: 0rem;
     border-radius: 45px;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }

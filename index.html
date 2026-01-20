@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,45 +12,52 @@
         rel="stylesheet">
     <title>Lógica de programación 1</title>
 </head>
+
 <body>
     <header>
-        <h1> Bienvenido, aquí podrás ordenar tus números de mayor a menor! </h1>
+        <h1> Bienvenido, aquí podrás ordenar tus números de mayor a menor y de menor a mayor! </h1>
     </header>
 
-        
+
     <container>
-    <main>
-        <h2> Ingresa tus tres números </h2>
-        <section class="introducir-numero-1">
-            <label for="num-1">
-                Ingresa el primer número: <input id="num-1" type="text" placeholder="12345" name="num-1" required>
-            </label>
-        </section>
-        
+        <main>
+            <h2> Ingresa tus tres números </h2>
+            <section class="introducir-numero-1">
+                <label for="num-1">
+                    Ingresa el primer número: <input id="num-1" type="text" placeholder="12345" name="num-1" required>
+                </label>
+            </section>
 
-        <section class="introducir-numero-2">
-            <label for="num-2">
-                Ingresa el segundo número: <input id="num-2" type="text" placeholder="12345" name="num-2" required>
-            </label>
-        </section>
 
-        <section class="introducir-numero-3">
-            <label for="num-3">
-                Ingresa el tercer número: <input id="num-3" type="text" placeholder="12345" name="num-3" required>
-            </label>
-        </section>
+            <section class="introducir-numero-2">
+                <label for="num-2">
+                    Ingresa el segundo número: <input id="num-2" type="text" placeholder="12345" name="num-2" required>
+                </label>
+            </section>
 
-        <button onclick="ordenarNumeros()" class="boton-ordenar" id="button"> Ordenar </button>
-        
+            <section class="introducir-numero-3">
+                <label for="num-3">
+                    Ingresa el tercer número: <input id="num-3" type="text" placeholder="12345" name="num-3" required>
+                </label>
+            </section>
 
-    </main> <img src="./src/bart.gif" alt="bart simpson" class="bart">
+            <button onclick="ordenarNumeros()" class="boton-ordenar" id="button"> Ordenar </button>
+
+
+        </main> <img src="./src/bart.gif" alt="bart simpson" class="bart">
     </container>
 
-    <div id="numeros-ordenados">
-        
-    </div>
+    <container class="numeros-ordenados">
+        <div id="numeros-ordenados-mayor-a-menor">
 
+        </div>
+
+        <div id="numeros-ordenados-menor-a-mayor">
+
+        </div>
+    </container>
 
     <script src="script.js"></script>
 </body>
+
 </html>
